@@ -6,8 +6,8 @@ Lated on I may be adjusting it to different video file formats.
 
 The subtitles currently 'SRT' files.
 Format like:
-------------------------------
+--
 1
 00:00:48,120 --> 00:00:49,240
 John Doe found.
-------------------------------
+--
