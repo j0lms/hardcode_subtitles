@@ -1,4 +1,4 @@
-## Subtitle Overlay Tool
+# Subtitle Overlay Tool
 
 A small Tkinter app that burns .srt subtitles directly into .mp4 video files using MoviePy.
 It’s built to make subtitle hardcoding simple — whether you’re doing one episode or an entire season.
@@ -9,7 +9,7 @@ Features
 - Responsive UI – encoding runs in the background
 - Smart output naming – saves files next to the original video with _subtitles added
 
-## What It Does
+# What It Does
 
 This tool hardcodes subtitles directly into the video (burned‑in).
 Currently supports:
@@ -17,7 +17,7 @@ Currently supports:
 - .mp4 video files
 - .srt subtitle files
 
-Example .srt format
+## Example .srt format
 <pre>
   1
   00:00:48,120 --> 00:00:49,240
@@ -29,19 +29,19 @@ Example .srt format
   - More subtitle styling options
   - Optional FFmpeg backend for faster encoding
 
-## Requirements
-# Software
+# Requirements
+## Software
 
     - Python 3.10+
     - FFmpeg (MoviePy uses it internally)
 
-# Python Packages
+## Python Packages
 <pre>
   pip install moviepy pysrt imageio
 </pre>
 
 (Tkinter is included with most Python installations.)
-Installation
+## Installation
 bash
   <pre>
     git clone https://github.com/YOUR_USERNAME/hardcode_subtitles.git
