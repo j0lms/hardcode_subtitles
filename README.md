@@ -83,7 +83,6 @@ Converting to `.ass` first keeps font sizes in real pixels (plain SRT styling in
 ```
 src/hardcode_subtitles/
 ├── __init__.py    # exposes main() for the console script
-├── __main__.py    # python -m hardcode_subtitles
 ├── main.py        # creates the window
 ├── frontend.py    # Tkinter UI (dark theme, queue table, preview)
 └── backend.py     # FFmpeg discovery, encoder detection, SRT→ASS, batch runner
