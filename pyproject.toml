@@ -1,0 +1,28 @@
+[project]
+name = "hardcode-subtitles"
+version = "0.1.0"
+description = "Simple subtitle hardcoding/burning tool"
+readme = "README.md"
+authors = [
+    { name = "j0lms", email = "j0lms@flancia.org" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "black>=26.5.1",
+    "imageio-ffmpeg>=0.6.0",
+    "pysrt>=1.1.2",
+    "tkinterdnd2>=0.6.3",
+]
+
+[project.scripts]
+hardcode-subtitles = "hardcode_subtitles:main"
+
+[build-system]
+requires = ["uv_build>=0.12.11,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.black]
+line-length = 79
+target-version = ['py314']
+preview = true
+enable-unstable-feature = ["string_processing"]

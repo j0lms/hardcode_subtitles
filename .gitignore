@@ -1,0 +1,55 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.eggs/
+pip-wheel-metadata/
+
+# --- Virtual environments (uv / venv) ---
+.venv/
+venv/
+env/
+# uv.lock is intentionally NOT ignored: commit it for reproducible installs
+
+# --- Tooling caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Packaging (if you ever build an .exe with PyInstaller) ---
+*.spec
+
+# --- This project: generated output and test media ---
+*_subtitles.mp4
+*_subtitles_[0-9]*.mp4
+*.part
+subburner_preview_*.png
+
+# Keep large test videos out of git
+input/
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.m4v
+
+# Local secrets / env files
+.env
+.env.*
